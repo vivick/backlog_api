@@ -1,0 +1,76 @@
+h1{
+  font-size: 30px;
+  margin: 30px ;
+}
+.idlist{
+  padding: 30px 0 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+  p{
+    display: inline-block;
+    &.last{
+      margin-left: 30px;
+    }
+  }
+}
+.month{
+  display: inline-block;
+}
+.selectMonth{
+  font-size: 20px;
+  margin: 0 0 0 30px;
+  padding: 10px 20px;
+  display: inline-block;
+  vertical-align:baseline
+  select{
+    line-height: 1;
+  }
+}
+.btn{
+  line-height: 1;
+  display: inline-block;
+  border: 1px solid #000;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  &:hover{
+    background-color: #ddd;
+  }
+}
+.list {
+  margin: 20px;
+  width: 60%;
+}
+.item {
+  background-color: #eee;
+  &.even {
+    background-color: #555;
+    a {
+      color: #eee;
+      &:hover {
+        color: rgb(252, 142, 243);
+      }
+    }
+  }
+  a {
+    padding: 10px;
+    display: block;
+    color: #555;
+    &:hover {
+      color: rgb(255, 43, 237);
+    }
+  }
+}
+.date {
+  padding-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+.block {
+  padding: 10px 0;
+  p {
+    display: inline-block;
+    line-height: 1.4;
+  }
+}

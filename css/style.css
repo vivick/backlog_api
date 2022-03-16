@@ -1,0 +1,95 @@
+h1 {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.idlist {
+  padding: 30px 0 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.idlist p {
+  display: inline-block;
+}
+
+.idlist p.last {
+  margin-left: 30px;
+}
+
+.month {
+  display: inline-block;
+}
+
+.selectMonth {
+  font-size: 20px;
+  margin: 0 0 0 30px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.selectMonth vertical-align:baseline
+select {
+  line-height: 1;
+}
+
+.btn {
+  line-height: 1;
+  display: inline-block;
+  border: 1px solid #000;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.list {
+  margin: 20px;
+  width: 60%;
+}
+
+.item {
+  background-color: #eee;
+}
+
+.item.even {
+  background-color: #555;
+}
+
+.item.even a {
+  color: #eee;
+}
+
+.item.even a:hover {
+  color: #fc8ef3;
+}
+
+.item a {
+  padding: 10px;
+  display: block;
+  color: #555;
+}
+
+.item a:hover {
+  color: #ff2bed;
+}
+
+.date {
+  padding-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.block {
+  padding: 10px 0;
+}
+
+.block p {
+  display: inline-block;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=style.css.map */
